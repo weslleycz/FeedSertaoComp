@@ -64,6 +64,7 @@ export const Comment = ({
     const allComments = [...comments];
     allComments.splice(indexToRemove, 1);
     setComments(allComments);
+    onCloseModal();
   };
 
   return (
